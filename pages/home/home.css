@@ -1,5 +1,5 @@
 ion-content {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to right, #b2c7cf, #b1deec, #406474);
 }
 
 h2 {
@@ -17,13 +17,13 @@ a {
   color: #37460f;
   }
 
-  button {
+button {
     display: block;
     margin: auto;
-    background-color:linear-gradient(to right, #a8c0ff, #3f2b96); ;
+    background:linear-gradient(to bottom, #a8c0ff, #3f2b96); ;
   }
 
-  h4 {
+h4 {
     font-size: small;
     color: #fc4a1a;
     text-align: center;

@@ -3,7 +3,8 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
+  styleUrls: ["home.css"]
 })
 export class HomePage {
 height: number;
@@ -21,11 +22,12 @@ calculate() {
 
    if (this.bmi < 18.5) {
    this.bmiMessage = "Underweight";
-   } else if (this.bmi > 18.5 && this.bmi < 25) {
+   } else if (this.bmi > 18.5 && this.bmi <=25) {
      this.bmiMessage="Normal";
-   } else if (this.bmi > 25 && this.bmi < 30) {
+   } else if (this.bmi > 25 && this.bmi <= 30) {
      this.bmiMessage="Overweight";
   } else {
-    this bmi.Message="Obese";
+    this.bmiMessage="Obese";
   }
+}
 }
