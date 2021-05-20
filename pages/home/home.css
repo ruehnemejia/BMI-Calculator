@@ -1,0 +1,30 @@
+ion-content {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+h2 {
+  color: #2c5364;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+  font-size:
+}
+
+a {
+  color: #37460f;
+  }
+
+  button {
+    display: block;
+    margin: auto;
+    background-color:linear-gradient(to right, #a8c0ff, #3f2b96); ;
+  }
+
+  h4 {
+    font-size: small;
+    color: #fc4a1a;
+    text-align: center;
+  }
